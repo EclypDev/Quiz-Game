@@ -1,0 +1,122 @@
+/* Estilos generales */
+body {
+    background-color: #D1E1F1;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Contenedor principal */
+  #lista-preguntas-container p {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  /* Cambiar el color de fondo si la respuesta es correcta */
+  #lista-preguntas-container p.correct {
+    background-color: green;
+  }
+  
+  /* Cambiar el color de fondo si la respuesta es incorrecta */
+  #lista-preguntas-container p.incorrect {
+    background-color: red;
+  }
+  
+  /* Formulario */
+  #message-form {
+    display: flex;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  #message {
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    width: 70%;
+  }
+  
+  #click {
+    background-color: #FFBCBC;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+    position: absolute;
+    padding: 10px;
+    transition: all 0.3s ease;
+    width: 25%;
+    top: 100px;
+    vertical-align: auto;
+  }
+  
+  #click {
+    background-color: #FF8F8F;
+  }
+  
+  /* Botón de inicio */
+  #click {
+    background-color: #EF7C8E;
+  }
+  
+  /* Botón de regresar */
+  #clickre {
+    background-color: #EF7C8E;
+  }
+  
+  /* Párrafos */
+  p {
+    color: #5C5C5C;
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  /* Checkboxes */
+  input[type="checkbox"] {
+    appearance: none;
+  vertical-align: middle;
+    background-color: #EAEAEA;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    height: 20px;
+    margin-right: 10px;
+    position: relative;
+    width: 20px;
+  }
+  
+  input[type="checkbox"]:checked {
+    background-color: #EF7C8E;
+  }
+  
+  input[type="checkbox"]::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background-color: #FFF;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  input[type="checkbox"]:checked::before {
+    background-color: #FFF;
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+  
+  label {
+    color: #5C5C5C;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  

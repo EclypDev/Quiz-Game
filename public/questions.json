@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "Cual es la capital de Francia?",
+      "choices": ["París", "Madrid", "Roma"],
+      "answer": 0
+    },
+    {
+      "question": "Quién escribió la novela 'Don Quijote de la Mancha'?",
+      "choices": ["Miguel de Cervantes", "Gabriel García Márquez", "Pablo Neruda"],
+      "answer": 0
+    },
+    {
+      "question": "En qué año comenzó la Segunda Guerra Mundial?",
+      "choices": ["1939", "1945", "1914"],
+      "answer": 0
+    },
+    {
+      "question": "Qué país se encuentra al sur de España?",
+      "choices": ["Marruecos", "Francia", "Italia"],
+      "answer": 0
+    },
+    {
+      "question": "Quién es el creador de Facebook?",
+      "choices": ["Mark Zuckerberg", "Bill Gates", "Steve Jobs"],
+      "answer": 0
+    },
+    {
+      "question": "Qué río atraviesa la ciudad de París?",
+      "choices": ["Sena", "Támesis", "Danubio"],
+      "answer": 0
+    },
+    {
+      "question": "Cuál es el planeta más cercano al Sol?",
+      "choices": ["Mercurio", "Venus", "Marte"],
+      "answer": 0
+    },
+    {
+      "question": "Qué país ganó el Mundial de Fútbol de 2018?",
+      "choices": ["Francia", "Argentina", "Brasil"],
+      "answer": 0
+    },
+    {
+      "question": "Cuál es el océano más grande?",
+      "choices": ["Pacífico", "Atlántico", "Índico"],
+      "answer": 0
+    },
+    {
+      "question": "En qué país se encuentra el Taj Mahal?",
+      "choices": ["India", "China", "Japón"],
+      "answer": 0
+    }
+  ]
+}

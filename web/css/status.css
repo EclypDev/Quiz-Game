@@ -1,0 +1,57 @@
+:root {
+    --main-color: #7fff7f;
+    --error-color: #fe3c45;
+    --hover-buy: #48995d;
+    --hover-sell: #d9373f;
+    --hover-info: #218bdf;
+    --background-color: #1e1e29;
+    --second-background: #2c2c3c;
+    --third-background: #373749;
+    --fourth-background: #1e1e29;
+    --package-border: #454559;
+    --border: 5px;
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #aeaeae;
+    --green-button: #4da564;
+    --font-family: Montserrat, sans-serif;
+    --opacity-image: 0.8;
+    --blur-image: 5px;
+    --accent-color: #ca6201;
+    --link-color: #007bff;
+    --highlight-color: #ff6b6b;
+    --dark-text-color: #333333;
+    --light-text-color: #f5f5f5;
+    --neutral-color: #cccccc;
+}
+
+body {
+    font-family: var(--font-family);
+    color: #aeaeae;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    min-width: 300px;
+}
+
+header {
+    background: var(--background-color);
+    height: auto;
+    padding: 10px;
+}
+
+
+
+.center {
+    align-items: center;
+    text-align: center;
+}
+
+#area {
+    height: 100vh;
+    background-color: var(--background-color);
+    margin: 100px;
+}
+
+.details {
+    color: var(--accent-color)
+}

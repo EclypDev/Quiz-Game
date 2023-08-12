@@ -1,0 +1,109 @@
+{
+  "questions": [
+    {
+      "question": "Cuál es el elemento químico con el símbolo 'Na'?",
+      "choices": ["Oxígeno", "Sodio", "Neón"],
+      "answer": 1
+    },
+    {
+      "question": "En qué año se fundó la compañía Apple?",
+      "choices": ["1976", "1984", "1991"],
+      "answer": 0
+    },
+    {
+      "question": "Cuál es la luna más grande de Júpiter?",
+      "choices": ["Calisto", "Ganímedes", "Ío"],
+      "answer": 1
+    },
+    {
+      "question": "Quién escribió la novela 'Cien años de soledad'?",
+      "choices": ["Pablo Neruda", "Gabriel García Márquez", "Mario Vargas Llosa"],
+      "answer": 1
+    },
+    {
+      "question": "Cuál es el segundo planeta del sistema solar?",
+      "choices": ["Venus", "Marte", "Júpiter"],
+      "answer": 0
+    },
+    {
+      "question": "En qué país se encuentra la ciudad de Marrakech?",
+      "choices": ["Marruecos", "Egipto", "Argelia"],
+      "answer": 0
+    },
+    {
+      "question": "Quién pintó 'La última cena'?",
+      "choices": ["Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh"],
+      "answer": 0
+    },
+    {
+      "question": "Cuál es el proceso por el cual las plantas liberan vapor de agua?",
+      "choices": ["Transpiración", "Evaporación", "Condensación"],
+      "answer": 0
+    },
+    {
+      "question": "Qué instrumento musical tiene 88 teclas blancas y negras?",
+      "choices": ["Violín", "Piano", "Guitarra"],
+      "answer": 1
+    },
+    {
+      "question": "En qué año el ser humano pisó la Luna por primera vez?",
+      "choices": ["1969", "1972", "1957"],
+      "answer": 0
+    },
+    {
+      "question": "Cuál es el océano más grande?",
+      "choices": ["Pacífico", "Atlántico", "Índico"],
+      "answer": 0
+    },
+    {
+      "question": "Quién es el autor de 'El principito'?",
+      "choices": ["Antoine de Saint-Exupéry", "F. Scott Fitzgerald", "Herman Melville"],
+      "answer": 0
+    },
+    {
+      "question": "En qué año se proclamó la Declaración Universal de Derechos Humanos?",
+      "choices": ["1948", "1955", "1961"],
+      "answer": 0
+    },
+    {
+      "question": "Cuál es el proceso de conversión de un gas en líquido llamado?",
+      "choices": ["Sublimación", "Solidificación", "Condensación"],
+      "answer": 2
+    },
+    {
+      "question": "Quién pintó 'La persistencia de la memoria'?",
+      "choices": ["Pablo Picasso", "Salvador Dalí", "René Magritte"],
+      "answer": 1
+    },
+    {
+      "question": "Cuál es el quinto planeta del sistema solar?",
+      "choices": ["Júpiter", "Saturno", "Urano"],
+      "answer": 0
+    },
+    {
+      "question": "Cuál es el río más largo del mundo?",
+      "choices": ["Amazonas", "Nilo", "Misisipi"],
+      "answer": 1
+    },
+    {
+      "question": "Qué famoso físico formuló las leyes del movimiento y la gravedad?",
+      "choices": ["Albert Einstein", "Isaac Newton", "Stephen Hawking"],
+      "answer": 1
+    },
+    {
+      "question": "Cuál es la capital de Australia?",
+      "choices": ["Sídney", "Melbourne", "Canberra"],
+      "answer": 2
+    },
+    {
+      "question": "Qué famoso pintor fue conocido por su técnica de esfumado en sus obras?",
+      "choices": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso"],
+      "answer": 0
+    },
+    {
+      "question": "En qué año comenzó la Revolución Rusa?",
+      "choices": ["1905", "1917", "1923"],
+      "answer": 1
+    }
+  ]
+}

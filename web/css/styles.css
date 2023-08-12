@@ -1,0 +1,180 @@
+:root {
+    --main-color: #7fff7f;
+    --error-color: #fe3c45;
+    --hover-buy: #48995d;
+    --hover-sell: #d9373f;
+    --hover-info: #218bdf;
+    --background-color: #1e1e29;
+    --second-background: #2c2c3c;
+    --third-background: #373749;
+    --fourth-background: #1e1e29;
+    --package-border: #454559;
+    --border: 5px;
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #aeaeae;
+    --green-button: #4da564;
+    --font-family: Montserrat, sans-serif;
+    --opacity-image: 0.8;
+    --blur-image: 5px;
+    --accent-color: #ca6201;
+    --link-color: #007bff;
+    --highlight-color: #ff6b6b;
+    --dark-text-color: #333333;
+    --light-text-color: #f5f5f5;
+    --neutral-color: #cccccc;
+}
+
+body {
+    font-family: var(--font-family);
+    color: #aeaeae;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    min-width: 300px;
+}
+
+header {
+    background: var(--background-color);
+    height: auto;
+    padding: 10px;
+}
+
+footer {
+    background: var(--background-color);
+    height: auto;
+    padding: 10px;
+
+}
+
+.progress-bar {
+    background: var(--hover-buy);
+    transition: 2s ease-out;
+}
+
+.question {
+    background-color: #161616;
+    text-shadow: 0px 0px 1px var(--main-color);
+}
+
+#area {
+    font-size: 1.2em;
+    height: 100%;
+    min-height: 500px;
+    width: 100%;
+    justify-content: center;
+    bottom: 0;
+    padding: 20px;
+    max-height: 85%;
+}
+
+#response-false {
+    background: #d9373f;
+}
+
+#response-true {
+    background-color: var(--green-button);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    /* Cambia el color de fondo a tu preferencia */
+    /* Otros estilos de diseño para el header */
+}
+
+.content {
+    padding-top: 100px;
+    background-color: var(--background-color);
+    z-index: 1;
+}
+
+.margin {
+    margin: 5px;
+}
+
+.padding {
+    padding: 10px;
+}
+
+
+.choise {
+    width: 100%;
+    min-height: 60px;
+    height: auto;
+    display: inline-block;
+    margin: 5px;
+}
+
+.buttonA {
+    color: var(--secondary-text-color);
+    border-radius: 50rem !important;
+    border: 1px solid #3d3d3d;
+    background-color: #161616;
+    min-width: 300px;
+    display: inline-block;
+
+}
+
+.buttonA:hover {
+    scale: 1.05;
+    box-shadow: 0px 0px 5px #2c2c3c;
+}
+
+
+/* Estilos del scrollbar */
+body::-webkit-scrollbar {
+    width: 10px;
+    /* Ancho del scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #161616;
+    /* Color del fondo del track del scrollbar */
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #2c2c3c;
+    /* Color del thumb (la parte que se desplaza) del scrollbar */
+    border-radius: 5px;
+}
+
+.avatar {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.center {
+    align-items: center;
+    text-align: center;
+}
+
+.right {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+.left {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+}
+
+.answer {
+    display: grid;
+    width: auto;
+    height: auto;
+    max-width: 25%;
+    margin: 5px;
+    min-width: 150px;
+
+}
+
+#answers {
+    display: flex;
+    justify-content: space-between;
+}
